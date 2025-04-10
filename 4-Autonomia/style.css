@@ -1,0 +1,170 @@
+/* Reset e estilo base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #1e1b1a;
+    color: #eee;
+    line-height: 1.6;
+  }
+  
+  a {
+    color: #3bbec0;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Cabeçalho */
+  .header {
+    background: #1e1b1a;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .nav a, .nav button {
+    background: #3bbec0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Imagens */
+  .one-image {
+    height: 300px;
+    background: url('imagens/one.jpeg') center/cover no-repeat;
+  }
+  
+  /* Galeria */
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background: #ffc0e8;
+    color: #333;
+  }
+  
+  .card {
+    text-align: center;
+  }
+  
+  .card img {
+    border-radius: 5px;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+  }
+  
+  /* Colunas de conteúdo */
+  .columns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: darkslategray;
+    padding: 20px;
+  }
+  
+  .column ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .column ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .column ul li img {
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Rodapé */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #1e1b1a;
+    padding: 20px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer li {
+    margin-bottom: 10px;
+  }
+  
+  /* --- MEDIA para telas maiores --- */
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .nav {
+      flex-direction: row;
+    }
+  
+    .gallery {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .card {
+      width: 23%;
+    }
+  
+    .columns {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .columns .column {
+      width: 32%;
+    }
+  
+    .footer {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .footer .column {
+      width: 45%;
+    }
+  }
+  
