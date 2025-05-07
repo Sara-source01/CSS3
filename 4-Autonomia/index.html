@@ -17,72 +17,102 @@
     <div class="container">
       <h1>Autonomia</h1>
       <nav class="nav">
-        <button>Página inicial</button>
-        <a href="#">Barra Lado esquerda</a>
-        <a href="#">Barra lado direita</a>
-        <a href="#">No Sidebar</a>
+        <a href="#inicio">Página inicial</a>
+          <a href="#esquerda">Barra Lado esquerda</a>
+          <a href="#direita">Barra lado direita</a>
+          <a href="#sem-sidebar">No Sidebar</a>
+          <a href="#rodape">Rodapé</a>
       </nav>
     </div>
   </header>
 
-  <!-- Imagens -->
-  <section class="one-image"></section>
+  <!-- Página inicial -->
+  <section id="inicio" class="one-image"></section>
 
-  <!-- Galeria com 4 colunas -->
-  <section class="gallery">
+  <!-- Galeria com 4 colunas | Barra lado esquerda -->
+  <section id="esquerda" class="gallery">
     <div class="card">
-      <img src="imagens/two.jpg" alt="">
+      <img src="imagens/two.jpg" alt="" />
       <h3>O que você quer?</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
     <div class="card">
-      <img src="imagens/three.jpg" alt="">
+      <img src="imagens/three.jpg" alt="" />
       <h3>Hora de estudar</h3>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, dolore.</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum,
+        dolore.
+      </p>
     </div>
     <div class="card">
-      <img src="imagens/four.jpg" alt="">
+      <img src="imagens/four.jpg" alt="" />
       <h3>Nunca pare de Aprendizagem</h3>
       <p>Lorem ipsum dolor sit amet consectetur.</p>
     </div>
     <div class="card">
-      <img src="imagens/five.avif" alt="">
+      <img src="imagens/five.avif" alt="" />
       <h3>Aprendizagem</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
     </div>
   </section>
 
-  <!-- Conteúdo em colunas -->
-  <section class="columns">
+  <!-- Conteúdo em colunas | Barra lado direita  -->
+  <section id="direita" class="columns">
     <div class="column">
       <h3>Tópicos semelhantes</h3>
       <ul>
-        <li><img src="imagens/side1.jpg" width="100">Lorem ipsum dolor sit</li>
-        <li><img src="imagens/side2.webp" width="100"> Lorem ipsum</li>
-        <li><img src="imagens/side3.jpg" width="100"> Lorem ipsum dolor sit amet</li>
+        <li>
+          <img src="imagens/side1.jpg" width="100" />Lorem ipsum dolor sit
+        </li>
+        <li><img src="imagens/side2.webp" width="100" /> Lorem ipsum</li>
+        <li>
+          <img src="imagens/side3.jpg" width="100" /> Lorem ipsum dolor sit
+          amet
+        </li>
       </ul>
     </div>
     <div class="column">
       <h3>Explore mais sobre</h3>
       <ul>
-        <li><img src="imagens/side4.jpg" width="100"> Lorem ipsum dolor sit amet consectetur</li>
-        <li><img src="imagens/side5.jpg" width="100"> Lorem ipsum dolor</li>
-        <li><img src="imagens/side6.jpg" width="100"> Lorem ipsum dolor sit</li>
+        <li>
+          <img src="imagens/side4.jpg" width="100" /> Lorem ipsum dolor sit
+          amet consectetur
+        </li>
+        <li><img src="imagens/side5.jpg" width="100" /> Lorem ipsum dolor</li>
+        <li>
+          <img src="imagens/side6.jpg" width="100" /> Lorem ipsum dolor sit
+        </li>
       </ul>
     </div>
     <div class="column">
       <h3>Métodos de aprendizagem acelerada</h3>
-      <img src="imagens/side7.jpg" alt="">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis qui modi laborum? Consequatur, esse omnis.</p>
+      <img src="imagens/side7.jpg" alt="" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+        qui modi laborum? Consequatur, esse omnis.
+      </p>
     </div>
   </section>
 
+  <!-- No Sidebar -->
+<section id="sem-sidebar" class="no-sidebar">
+<div class="content">
+  <h2>Conteúdo sem barra lateral</h2>
+  <p>
+    Este é um conteúdo separado, exibido em largura total da página, sem colunas ou barras laterais.
+  </p>
+  <img src="imagens/sideBar.webp" alt="Imagem ilustrativa" style="max-width: 100%; height: auto;">
+</div>
+</section>
+
   <!-- Rodapé -->
-  <footer class="footer">
+  <footer id="rodape" class="footer">
     <div class="column">
       <h3>Artigo pequeno sobre o website:</h3>
       <p>
-        Lorem ipsum dolor, sit consectetur adipisicing elit. Atque esse debitis consequatur quod mollitia? Aliquid animi ipsum mollitia iure. Incidunt voluptatem corrupti explicabo.
+        Lorem ipsum dolor, sit consectetur adipisicing elit. Atque esse
+        debitis consequatur quod mollitia? Aliquid animi ipsum mollitia iure.
+        Incidunt voluptatem corrupti explicabo.
       </p>
     </div>
     <div class="column">
@@ -95,6 +125,5 @@
       </ul>
     </div>
   </footer>
-
 </body>
 </html>
