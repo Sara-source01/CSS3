@@ -1,2 +1,2 @@
 # CSS3
-Avatar, Dashbar, Navbar, Autonomia, .....etc
+Projeto simples para praticar CSS3 com estilos básicos e layout responsivo.
