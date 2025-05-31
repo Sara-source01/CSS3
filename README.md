@@ -48,22 +48,6 @@ Você pode abrir diretamente clicando no arquivo
 Ou usando extensões como Live Server no VSCode para melhor experiência
 
 
-📝 Sobre o código CSS
-O corpo (body) tem fundo escuro para destacar os avatares
-
-.avatar define o tamanho e a posição relativa de cada avatar
-
-.avatar_conteudo estiliza o conteúdo interno com fonte, cor e fundo verde-azulado
-
-.avatar_imagem garante que a imagem se encaixe perfeitamente no círculo
-
-.avatar_badge é uma bolinha verde que fica na parte inferior do avatar, com letras ou ícones
-
-
-📄 Licença
-Este projeto está aberto para aprendizado e prática pessoal.
-
-
 ## 💻 Pré-visualização
 
 > Acesse a demo online:
